@@ -25,3 +25,10 @@ Here is what you can do with ResEx:
 * Search inside resource files while translating
 * Word Count to help estimation of translation cost
 * Compatible with both Visual Studio 2005 and 2008
+
+Contributors
+------------
+* Dimitris Papadimitriou
+* lepipele
+* dmoor
+* Sebastian Baumhekel
