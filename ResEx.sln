@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD9B4E9A-0289-4A0E-995B-90635C2E961B}"
+	ProjectSection(SolutionItems) = preProject
+		Build.cmd = Build.cmd
+		Build.proj = Build.proj
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		ResEx.vsmdi = ResEx.vsmdi
+		Settings.StyleCop = Settings.StyleCop
+		setup.iss = setup.iss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlugIns", "PlugIns", "{E7FFF580-7507-4CFE-BDAD-BB903D41442D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{C95A7787-E7AD-4CA1-B720-AF519A6F510C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{62AA2F61-2512-4D90-A836-30088C815533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{77174029-7407-4241-8096-31F1F72F33FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{840CE824-904B-41D8-935E-E5039C6AF567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win", "Win\Win.csproj", "{CD44DFAF-4838-4B13-A385-2E7DFF6A47DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardPlugIns", "StandardPlugIns\StandardPlugIns.csproj", "{E0025754-6F3C-4652-835E-E5E40FC575DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{48BAD1CE-61F1-4E7B-9E47-FC61FDDC1B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardAdapters", "ResxAdapter\StandardAdapters.csproj", "{D4740BF3-53FF-48E2-9430-451580D3D2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResEx", "Executable\ResEx.csproj", "{E6B212CA-884D-4F45-BC5F-11819A486A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationPlugin", "TranslationPlugin\TranslationPlugin.csproj", "{66365689-7DFF-403C-A4A6-D9E56EBAC941}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ResEx.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77174029-7407-4241-8096-31F1F72F33FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77174029-7407-4241-8096-31F1F72F33FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77174029-7407-4241-8096-31F1F72F33FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77174029-7407-4241-8096-31F1F72F33FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840CE824-904B-41D8-935E-E5039C6AF567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840CE824-904B-41D8-935E-E5039C6AF567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840CE824-904B-41D8-935E-E5039C6AF567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840CE824-904B-41D8-935E-E5039C6AF567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD44DFAF-4838-4B13-A385-2E7DFF6A47DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD44DFAF-4838-4B13-A385-2E7DFF6A47DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD44DFAF-4838-4B13-A385-2E7DFF6A47DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD44DFAF-4838-4B13-A385-2E7DFF6A47DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0025754-6F3C-4652-835E-E5E40FC575DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0025754-6F3C-4652-835E-E5E40FC575DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0025754-6F3C-4652-835E-E5E40FC575DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0025754-6F3C-4652-835E-E5E40FC575DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BAD1CE-61F1-4E7B-9E47-FC61FDDC1B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BAD1CE-61F1-4E7B-9E47-FC61FDDC1B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BAD1CE-61F1-4E7B-9E47-FC61FDDC1B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BAD1CE-61F1-4E7B-9E47-FC61FDDC1B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4740BF3-53FF-48E2-9430-451580D3D2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4740BF3-53FF-48E2-9430-451580D3D2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4740BF3-53FF-48E2-9430-451580D3D2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4740BF3-53FF-48E2-9430-451580D3D2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B212CA-884D-4F45-BC5F-11819A486A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B212CA-884D-4F45-BC5F-11819A486A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B212CA-884D-4F45-BC5F-11819A486A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B212CA-884D-4F45-BC5F-11819A486A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66365689-7DFF-403C-A4A6-D9E56EBAC941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66365689-7DFF-403C-A4A6-D9E56EBAC941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66365689-7DFF-403C-A4A6-D9E56EBAC941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66365689-7DFF-403C-A4A6-D9E56EBAC941}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0025754-6F3C-4652-835E-E5E40FC575DC} = {E7FFF580-7507-4CFE-BDAD-BB903D41442D}
+		{66365689-7DFF-403C-A4A6-D9E56EBAC941} = {E7FFF580-7507-4CFE-BDAD-BB903D41442D}
+		{48BAD1CE-61F1-4E7B-9E47-FC61FDDC1B26} = {C95A7787-E7AD-4CA1-B720-AF519A6F510C}
+		{D4740BF3-53FF-48E2-9430-451580D3D2ED} = {62AA2F61-2512-4D90-A836-30088C815533}
+	EndGlobalSection
+EndGlobal

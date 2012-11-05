@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://www.codeplex.com/rss.xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>resex Releases Rss Feed</title>
+        <link>http://resex.codeplex.com/Release/ProjectReleases.aspx</link>
+        <description>resex Releases Rss Description</description>
+
+        <item>
+            <title>Updated Release: ResEx 1.3 Beta</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34340</link>
+            <description>&lt;div class="wikidoc"&gt;Thirt stable release.&lt;br /&gt;It has been &lt;b&gt;downloaded 2773 times&lt;/b&gt; before the project was moved to CodePlex.&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description>
+            <author>papadi</author>
+            <pubDate>Sun, 18 Nov 2009 21:02:26 GMT</pubDate>
+            <guid isPermaLink="false">Updated Release: ResEx 1.3 Beta 20091018090226P</guid>
+        </item>
+        <item>
+            <title>Released: ResEx 1.3 Beta</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34340</link>
+            <description>&lt;div&gt;Thirt stable release.&lt;br&gt;It has been &lt;b&gt;downloaded 2773 times&lt;/b&gt; before the project was moved to CodePlex.&lt;/div&gt;&lt;div&gt;&lt;/div&gt;</description>
+            <author></author>
+            <pubDate>Sun, 18 Nov 2009 21:02:25 GMT</pubDate>
+            <guid isPermaLink="false">Released: ResEx 1.3 Beta 20091018090225P</guid>
+        </item>
+        <item>
+            <title>Created Release: ResEx 1.3 Beta</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34340</link>
+            <description>&lt;div class="wikidoc"&gt;Thirt stable release.&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description>
+            <author>papadi</author>
+            <pubDate>Mon, 12 Nov 2009 18:49:31 GMT</pubDate>
+            <guid isPermaLink="false">Created Release: ResEx 1.3 Beta 20091012064931P</guid>
+        </item>
+
+
+        <item>
+            <title>Updated Release: ResEx 1.2 (Αυγ 03, 2008)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34340</link>
+            <description>&lt;div class="wikidoc"&gt;Thirt stable release.&lt;br /&gt;It has been &lt;b&gt;downloaded 2773 times&lt;/b&gt; before the project was moved to CodePlex.&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description>
+            <author>papadi</author>
+            <pubDate>Sun, 18 Oct 2009 21:02:26 GMT</pubDate>
+            <guid isPermaLink="false">Updated Release: ResEx 1.2 (Αυγ 03, 2008) 20091018090226P</guid>
+        </item>
+        <item>
+            <title>Released: ResEx 1.2 (Aug 03, 2008)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34340</link>
+            <description>&lt;div&gt;Thirt stable release.&lt;br&gt;It has been &lt;b&gt;downloaded 2773 times&lt;/b&gt; before the project was moved to CodePlex.&lt;/div&gt;&lt;div&gt;&lt;/div&gt;</description>
+            <author></author>
+            <pubDate>Sun, 18 Oct 2009 21:02:25 GMT</pubDate>
+            <guid isPermaLink="false">Released: ResEx 1.2 (Aug 03, 2008) 20091018090225P</guid>
+        </item>
+        <item>
+            <title>Created Release: ResEx 1.2 (Αυγ 03, 2008)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34340</link>
+            <description>&lt;div class="wikidoc"&gt;Thirt stable release.&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description>
+            <author>papadi</author>
+            <pubDate>Mon, 12 Oct 2009 18:49:31 GMT</pubDate>
+            <guid isPermaLink="false">Created Release: ResEx 1.2 (Αυγ 03, 2008) 20091012064931P</guid>
+        </item>
+        <item>
+            <title>Released: ResEx 1.2 (Aug 03, 2008)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34340</link>
+            <description>&lt;div&gt;Thirt stable release.&lt;/div&gt;&lt;div&gt;&lt;/div&gt;</description>
+            <author></author>
+            <pubDate>Mon, 12 Oct 2009 18:49:31 GMT</pubDate>
+            <guid isPermaLink="false">Released: ResEx 1.2 (Aug 03, 2008) 20091012064931P</guid>
+        </item>
+        <item>
+            <title>Created Release: ResEx 1.1 (Απρ 02, 2008)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34339</link>
+            <description>&lt;div class="wikidoc"&gt;Second stable release.&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description>
+            <author>papadi</author>
+            <pubDate>Mon, 12 Oct 2009 18:48:21 GMT</pubDate>
+            <guid isPermaLink="false">Created Release: ResEx 1.1 (Απρ 02, 2008) 20091012064821P</guid>
+        </item>
+        <item>
+            <title>Released: ResEx 1.1 (Apr 02, 2008)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34339</link>
+            <description>&lt;div&gt;Second stable release.&lt;/div&gt;&lt;div&gt;&lt;/div&gt;</description>
+            <author></author>
+            <pubDate>Mon, 12 Oct 2009 18:48:21 GMT</pubDate>
+            <guid isPermaLink="false">Released: ResEx 1.1 (Apr 02, 2008) 20091012064821P</guid>
+        </item>
+        <item>
+            <title>Created Release: ResEx 1.0 (Ιουλ 02, 2007)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34338</link>
+            <description>&lt;div class="wikidoc"&gt;First release.&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description>
+            <author>papadi</author>
+            <pubDate>Mon, 12 Oct 2009 18:46:29 GMT</pubDate>
+            <guid isPermaLink="false">Created Release: ResEx 1.0 (Ιουλ 02, 2007) 20091012064629P</guid>
+        </item>
+        <item>
+            <title>Released: ResEx 1.0 (Jul 02, 2007)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34338</link>
+            <description>&lt;div&gt;First release.&lt;/div&gt;&lt;div&gt;&lt;/div&gt;</description>
+            <author></author>
+            <pubDate>Mon, 12 Oct 2009 18:46:29 GMT</pubDate>
+            <guid isPermaLink="false">Released: ResEx 1.0 (Jul 02, 2007) 20091012064629P</guid>
+        </item>
+        <item>
+            <title>Created Release: ResEx 0.2 Beta (Μαρ 28, 2007)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34337</link>
+            <description>&lt;div class="wikidoc"&gt;Beta version&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description>
+            <author>papadi</author>
+            <pubDate>Mon, 12 Oct 2009 18:45:16 GMT</pubDate>
+            <guid isPermaLink="false">Created Release: ResEx 0.2 Beta (Μαρ 28, 2007) 20091012064516P</guid>
+        </item>
+        <item>
+            <title>Released: ResEx 0.2 Beta (Mar 28, 2007)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34337</link>
+            <description>&lt;div&gt;Beta version&lt;/div&gt;&lt;div&gt;&lt;/div&gt;</description>
+            <author></author>
+            <pubDate>Mon, 12 Oct 2009 18:45:16 GMT</pubDate>
+            <guid isPermaLink="false">Released: ResEx 0.2 Beta (Mar 28, 2007) 20091012064516P</guid>
+        </item>
+        <item>
+            <title>Created Release: ResEx 0.1 Alpha (Μαρ 02, 2007)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34336</link>
+            <description>&lt;div class="wikidoc"&gt;First version ever released.&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description>
+            <author>papadi</author>
+            <pubDate>Mon, 12 Oct 2009 18:44:14 GMT</pubDate>
+            <guid isPermaLink="false">Created Release: ResEx 0.1 Alpha (Μαρ 02, 2007) 20091012064414P</guid>
+        </item>
+        <item>
+            <title>Released: ResEx 0.1 Alpha (Mar 02, 2007)</title>
+            <link>http://resex.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=34336</link>
+            <description>&lt;div&gt;First version ever released.&lt;/div&gt;&lt;div&gt;&lt;/div&gt;</description>
+            <author></author>
+            <pubDate>Mon, 12 Oct 2009 18:44:14 GMT</pubDate>
+            <guid isPermaLink="false">Released: ResEx 0.1 Alpha (Mar 02, 2007) 20091012064414P</guid>
+        </item>
+    </channel>
+</rss>

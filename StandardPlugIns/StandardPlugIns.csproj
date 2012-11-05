@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E0025754-6F3C-4652-835E-E5E40FC575DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ResEx.StandardPlugIns</RootNamespace>
+    <AssemblyName>ResEx.StandardPlugIns</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>-Microsoft.Maintainability#CA1500</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>CommonAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="AddRemoveItems\AddRemoveItemsPlugIn.cs" />
+    <Compile Include="AddRemoveItems\AddResourceItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRemoveItems\AddResourceItemForm.Designer.cs">
+      <DependentUpon>AddResourceItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseValuesFilter.cs" />
+    <Compile Include="CopyBaseValuesPlugIn.cs" />
+    <Compile Include="Exclusions\ExclusionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exclusions\ExclusionsForm.Designer.cs">
+      <DependentUpon>ExclusionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlugInsOverviewPlugInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlugInsOverviewPlugInForm.Designer.cs">
+      <DependentUpon>PlugInsOverviewPlugInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlugInsOverviewPlugIn.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewMarksPlugin.cs" />
+    <Compile Include="StatisticsPlugIn.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatisticsPlugInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticsPlugInForm.Designer.cs">
+      <DependentUpon>StatisticsPlugInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exclusions\ExclusionsPlugIn.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{77174029-7407-4241-8096-31F1F72F33FD}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{840CE824-904B-41D8-935E-E5039C6AF567}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Win\Win.csproj">
+      <Project>{CD44DFAF-4838-4B13-A385-2E7DFF6A47DD}</Project>
+      <Name>Win</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddRemoveItems\AddResourceItemForm.resx">
+      <DependentUpon>AddResourceItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exclusions\ExclusionsForm.resx">
+      <DependentUpon>ExclusionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlugInsOverviewPlugInForm.resx">
+      <DependentUpon>PlugInsOverviewPlugInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsPlugInForm.resx">
+      <DependentUpon>StatisticsPlugInForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlugIn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlugIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resStringAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resStringDel.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

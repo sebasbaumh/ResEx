@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PropertyGroup>
+        <Root>$(MSBuildProjectDirectory)\</Root>
+		<InnoSetupPath>C:\Program Files (x86)\Inno Setup 5\iscc.exe</InnoSetupPath>
+        <Version>1.5.0.0</Version>
+        <VersionShort>1.5</VersionShort>
+        <ProductName>ResEx</ProductName>
+        <!-- Use the following two lines for beta versions -->
+        <!--<VersionShort>1.5Beta</VersionShort>-->
+        <!--<ProductName>ResEx Beta</ProductName>-->
+        <SolutionFileName>$(Root)ResEx.sln</SolutionFileName>
+        <SetupOutputPath>$(Root)</SetupOutputPath>
+        <InnoSetupScript>$(Root)setup.iss</InnoSetupScript>
+        <OutputFileName>ResExSetup$(VersionShort)</OutputFileName>
+    </PropertyGroup>
+
+    <Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets"/>
+
+	<Target Name="Build">
+        <CallTarget Targets="UpdateVersionInCode"/>
+        <CallTarget Targets="BuildSolution"/>
+        <CallTarget Targets="BuildSetup"/>
+    </Target>	
+	
+    <Target Name="UpdateVersionInCode">
+        <Message Text="Updating AssemblyInfo file with new version number"/>
+        <FileUpdate Files="$(Root)\CommonAssemblyInfo.cs"
+                    IgnoreCase="true" Multiline="false" Singleline="false"
+                    Regex="AssemblyVersion\(&quot;*.{2,}&quot;\)"
+                    ReplacementText="AssemblyVersion(&quot;$(Version)&quot;)"/>
+        <FileUpdate Files="$(Root)\CommonAssemblyInfo.cs"
+                    IgnoreCase="true" Multiline="false" Singleline="false"
+                    Regex="AssemblyFileVersion\(&quot;*.{2,}&quot;\)"
+                    ReplacementText="AssemblyFileVersion(&quot;$(Version)&quot;)"/>
+        <FileUpdate Files="$(Root)\CommonAssemblyInfo.cs"
+                    IgnoreCase="true" Multiline="false" Singleline="false"
+                    Regex="AssemblyProduct\(&quot;ResEx&quot;\)"
+                    ReplacementText="AssemblyProduct(&quot;$(ProductName)&quot;)"/>
+    </Target>
+	
+	<Target Name="BuildSolution">
+		<Message Text="Building Solution"/>
+		<MSBuild Projects="$(SolutionFileName)" 
+                 Targets="Clean;Build" 
+                 Properties="Configuration=$(Configuration)"/>
+	</Target>
+
+    <Target Name="BuildSetup">
+        <Message Text="Build the Inno Setup script"/>
+        <Exec Command="&quot;$(InnoSetupPath)&quot; &quot;$(InnoSetupScript)&quot; /o$(SetupOutputPath) /dVersion=$(Version) /dVersionShort=$(VersionShort) /dConfiguration=$(Configuration) /dOutputFileName=$(OutputFileName) /dProductName=&quot;$(ProductName)&quot;"></Exec>
+    </Target>
+
+</Project>
