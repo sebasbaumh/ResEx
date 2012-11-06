@@ -166,5 +166,17 @@ namespace ResEx.Properties {
                 this["PlugInsInfo"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool HideEmpty {
+            get {
+                return ((bool)(this["HideEmpty"]));
+            }
+            set {
+                this["HideEmpty"] = value;
+            }
+        }
     }
 }

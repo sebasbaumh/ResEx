@@ -1233,6 +1233,7 @@ namespace ResEx
 
             HideLockedToolStripMenuItem.Checked = Properties.Settings.Default.HideLocked;
             HideVSFormItemsToolStripMenuItem.Checked = Properties.Settings.Default.HideVSFormItems;
+            HideEmptyToolStripMenuItem.Checked = Properties.Settings.Default.HideEmpty;
         }
 
         private void Settings_Save()
@@ -1247,6 +1248,7 @@ namespace ResEx
             Properties.Settings.Default.FontSize = CustomDataGrid1.MainDataGridView.Font.Size;
             Properties.Settings.Default.HideLocked = HideLockedToolStripMenuItem.Checked;
             Properties.Settings.Default.HideVSFormItems = HideVSFormItemsToolStripMenuItem.Checked;
+            Properties.Settings.Default.HideEmpty = HideEmptyToolStripMenuItem.Checked;
             Properties.Settings.Default.Save();
         }
 

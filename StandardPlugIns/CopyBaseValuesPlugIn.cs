@@ -22,7 +22,7 @@ namespace ResEx.StandardPlugIns
             
             // create the button that will invoke the plug in
             this.button = new ButtonInfo();
-            this.button.Caption = "Copy Base Values";
+            this.button.Caption = "Copy all Base Values";
             this.button.Image = null;
             this.button.OnClick += this.Invoke;
             this.button.ToolBarVisible = false;
@@ -35,7 +35,7 @@ namespace ResEx.StandardPlugIns
         {
             BaseValuesFilter filter;
 
-            switch (MessageBox.Show("Warning! This will copy base values as translated!\r\n\r\nSelect Yes to copy all values, No to copy not translated values only or Cancel to abort...", Application.ProductName, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning))
+            switch (MessageBox.Show("Warning! This will copy all base values as translated!\r\n\r\nSelect Yes to copy all values, No to copy not translated values only or Cancel to abort...", Application.ProductName, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning))
             {
                 case DialogResult.Cancel:
                     return;
