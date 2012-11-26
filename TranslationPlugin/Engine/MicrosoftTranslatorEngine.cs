@@ -139,7 +139,7 @@ namespace ResEx.TranslationPlugin.Engine
                         });
                     }
 
-                    languages = result.ToArray();
+                    languages = (from l in result orderby l.DisplayName select l).ToArray();
                 }
             }
 
